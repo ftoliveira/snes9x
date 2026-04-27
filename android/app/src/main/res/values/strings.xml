@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snes9x</string>
+    <string name="pick_rom">Selecionar ROM</string>
+    <string name="no_roms">Nenhuma ROM carregada recentemente</string>
+    <string name="save_state">Salvar estado</string>
+    <string name="load_state">Carregar estado</string>
+    <string name="slot">Slot %d</string>
+    <string name="rom_loaded">ROM carregada com sucesso</string>
+    <string name="rom_error">Erro ao carregar ROM</string>
+    <string name="save_ok">Estado salvo</string>
+    <string name="load_ok">Estado carregado</string>
+    <string name="state_error">Erro ao acessar estado</string>
+    <string name="recent_roms">Recentes</string>
+    <string name="menu">Menu</string>
+    <string name="resume">Retomar</string>
+    <string name="reset">Resetar</string>
+    <string name="quit">Sair</string>
+</resources>
