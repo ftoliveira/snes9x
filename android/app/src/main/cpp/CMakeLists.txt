@@ -70,6 +70,7 @@ target_include_directories(snes9x_android PRIVATE
     ${SNES9X_ROOT}
     ${SNES9X_ROOT}/apu
     ${SNES9X_ROOT}/apu/bapu
+    ${SNES9X_ROOT}/unzip
 )
 
 target_compile_definitions(snes9x_android PRIVATE
