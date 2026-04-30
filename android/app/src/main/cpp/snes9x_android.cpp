@@ -149,11 +149,11 @@ const char *S9xSelectFilename(const char *, const char *, const char *, const ch
 
 bool8 S9xOpenSnapshotFile(const char *path, bool8 write, STREAM *stream)
 {
-    *stream = OPEN_FSTREAM(path, write ? "wb" : "rb");
+    *stream = OPEN_STREAM(path, write ? "wb" : "rb");
     return *stream != nullptr;
 }
 
-void S9xCloseSnapshotFile(STREAM stream) { CLOSE_FSTREAM(stream); }
+void S9xCloseSnapshotFile(STREAM stream) { CLOSE_STREAM(stream); }
 
 // ── snes9x port: input polling (controls.h) ──────────────────────────────────
 
