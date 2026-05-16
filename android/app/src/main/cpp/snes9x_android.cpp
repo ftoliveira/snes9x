@@ -104,7 +104,6 @@ bool8 S9xContinueUpdate(int width, int height)
     return S9xDeinitUpdate(width, height);
 }
 
-void S9xReRefresh() {}
 
 // ── snes9x port: audio sync ───────────────────────────────────────────────────
 
